@@ -1,0 +1,21 @@
+{
+  "title": "Docker Monitor",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Docker Monitor",
+        "description": "Set up Docker container monitoring",
+        "data": {
+          "host": "Docker daemon URL"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to Docker daemon",
+      "unknown": "Unexpected error"
+    },
+    "abort": {
+      "already_configured": "Docker Monitor is already configured"
+    }
+  }
+}
