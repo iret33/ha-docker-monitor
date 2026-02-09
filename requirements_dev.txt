@@ -1,0 +1,5 @@
+# Development dependencies
+pre-commit>=3.5.0
+ruff>=0.1.9
+pytest>=7.4.0
+pytest-homeassistant-custom-component>=0.13.0
